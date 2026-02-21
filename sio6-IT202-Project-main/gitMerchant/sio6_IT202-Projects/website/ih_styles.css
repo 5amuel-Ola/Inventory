@@ -1,0 +1,142 @@
+body {
+   font-family: Geneva, Tahoma, sans-serif;
+   font-size: 80%;
+   background-color: #E6EEF3;
+   color: #2E4756;
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+   margin: 0;
+   padding: 0;
+   color: #2E4756;
+}
+
+h1 {
+   font-family: Verdana, Arial, sans-serif;
+   font-size: 120%;
+}
+
+h2 {
+   font-size: 120%;
+}
+
+h3 {
+   font-size: 110%;
+}
+
+h4 {
+   font-size: 100%;
+}
+
+footer {
+   font-family: Geneva, Tahoma, sans-serif;
+   font-size: 80%;
+   background-color: #41334a;
+   color: white;
+   padding: 5px;
+   border-top: 3px solid #f0e6d5;
+   border-bottom: 3px solid #f0e6d5;
+   clear: both;
+   text-align: center;
+   width: 100%;
+}
+
+main {
+   padding: 5px;
+   border-top: 3px solid #92A6B8;
+   float: left;
+   width: 55%;
+}
+
+main table, main td {
+   padding: 2px;
+}
+
+
+header {
+   padding: 5px;
+   border-bottom: 3px solid #92A6B8;
+   height: 40px;
+   width: 100%;
+}
+
+.navigation {
+   padding: 10px;
+   border-bottom: 1px solid #92A6B8;
+   border-right: 1px solid #92A6B8;
+   border-top: 1px solid #92A6B8;
+   border-left: 5px solid #92A6B8;
+   background-color: #C3D4DF;
+   width: 20%;
+   color: #2E4756;
+}
+
+a, a:link {
+   color: #3B6EA5;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #5E8EC0;
+}
+
+a:active {
+   color: #2E4756;
+}
+
+nav a, nav a:link {
+   color: #2E4756;
+}
+
+nav a:hover {
+   color: #3B6EA5;
+}
+
+nav a:visited {
+   color: #5E8EC0;
+}
+
+nav a:active {
+   color: #2E4756;
+}
+
+input {
+   border: 2px solid #92A6B8;
+   background-color: #C3D4DF;
+   color: #2E4756;
+   border-radius: 5px;
+}
+
+input[type=submit] {
+   font-family: Verdana, Arial, sans-serif;
+   font-size: 80%;
+   background-color: #5E8EC0;
+   color: #E6EEF3;
+   border: none;
+   padding: 4px 8px;
+   cursor: pointer;
+}
+
+input[type=submit]:hover {
+   background-color: #3B6EA5;
+}
+
+input:required:invalid {
+   border-color: #5E8EC0;
+   background-color: #D9E4EB;
+}
+
+input:required:valid {
+   border-color: #3B6EA5;
+   background-color: #C3D4DF;
+}
+
+input:focus {
+   outline: none;
+   border-color: #3B6EA5;
+   background-color: #DCE7EF;
+   box-shadow: 0 0 5px #3B6EA5;
+}
